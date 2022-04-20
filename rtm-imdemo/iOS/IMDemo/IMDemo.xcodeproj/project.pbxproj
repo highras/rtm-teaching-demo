@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B0DF0F22807D5EB002BE2B9 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DF0F12807D5EB002BE2B9 /* RegisterView.swift */; };
+		4B0DF0F42807F127002BE2B9 /* BottomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DF0F32807F127002BE2B9 /* BottomNavigationView.swift */; };
+		4B0DF0F62807F13E002BE2B9 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DF0F52807F13E002BE2B9 /* TopNavigationView.swift */; };
+		4B0DF0F82807F150002BE2B9 /* ContactItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DF0F72807F150002BE2B9 /* ContactItemView.swift */; };
+		4B0DF0FA2807F39F002BE2B9 /* MenuActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DF0F92807F39F002BE2B9 /* MenuActionView.swift */; };
+		4B0DF0FC2807F5F0002BE2B9 /* ProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DF0FB2807F5F0002BE2B9 /* ProcessingView.swift */; };
+		4B0DF0FE2808108D002BE2B9 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DF0FD2808108D002BE2B9 /* ContactView.swift */; };
+		4B0DF100280812F9002BE2B9 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DF0FF280812F9002BE2B9 /* SessionView.swift */; };
+		4B0DF102280815A0002BE2B9 /* DialogueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DF101280815A0002BE2B9 /* DialogueView.swift */; };
+		4B0DF10428082D0D002BE2B9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DF10328082D0C002BE2B9 /* ProfileView.swift */; };
+		4B0DF10628082D23002BE2B9 /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DF10528082D23002BE2B9 /* ContactInfoView.swift */; };
+		4B0DF10828083DCF002BE2B9 /* BrokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DF10728083DCF002BE2B9 /* BrokenView.swift */; };
+		4B0DF10B2808439D002BE2B9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0DF10A28084369002BE2B9 /* libsqlite3.tbd */; };
+		4B0DF10D28084832002BE2B9 /* DBOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0DF10C28084832002BE2B9 /* DBOperator.swift */; };
+		4B2444EA2806ECA1007FF286 /* IMDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2444E92806ECA1007FF286 /* IMDemoApp.swift */; };
+		4B2444EE2806ECA3007FF286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2444ED2806ECA3007FF286 /* Assets.xcassets */; };
+		4B2444F12806ECA3007FF286 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2444F02806ECA3007FF286 /* Preview Assets.xcassets */; };
+		4B2444F82806EFD0007FF286 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2444F72806EFD0007FF286 /* LoginView.swift */; };
+		4B2444FA2806F6C7007FF286 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2444F92806F6C7007FF286 /* Config.swift */; };
+		4B2444FC2806F6D6007FF286 /* IMCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2444FB2806F6D6007FF286 /* IMCenter.swift */; };
+		4B5D216028094B1E00E2C8F4 /* Rtm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5D215F28094B1E00E2C8F4 /* Rtm.framework */; };
+		4B5D217F28094B6100E2C8F4 /* wavwriter.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D216928094B6000E2C8F4 /* wavwriter.c */; };
+		4B5D218028094B6100E2C8F4 /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D216D28094B6000E2C8F4 /* VoiceConverter.mm */; };
+		4B5D218128094B6100E2C8F4 /* wavreader.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D217028094B6000E2C8F4 /* wavreader.c */; };
+		4B5D218228094B6100E2C8F4 /* NarrowBandWavToAmr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D217128094B6000E2C8F4 /* NarrowBandWavToAmr.mm */; };
+		4B5D218328094B6100E2C8F4 /* WidthBandWavToAmr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D217228094B6000E2C8F4 /* WidthBandWavToAmr.mm */; };
+		4B5D218428094B6100E2C8F4 /* RTMRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D217528094B6000E2C8F4 /* RTMRecordManager.m */; };
+		4B5D218528094B6100E2C8F4 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5D217728094B6000E2C8F4 /* libopencore-amrwb.a */; };
+		4B5D218628094B6100E2C8F4 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5D217828094B6000E2C8F4 /* libopencore-amrnb.a */; };
+		4B5D218728094B6100E2C8F4 /* libvo-amrwbenc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5D217928094B6000E2C8F4 /* libvo-amrwbenc.a */; };
+		4B5D218828094B6100E2C8F4 /* RTMAudioplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D217A28094B6000E2C8F4 /* RTMAudioplayer.m */; };
+		4B5D218928094B6100E2C8F4 /* RtmVoiceConverterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D217E28094B6100E2C8F4 /* RtmVoiceConverterManager.m */; };
+		4B5D218B28094ED600E2C8F4 /* IMEventProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D218A28094ED600E2C8F4 /* IMEventProcessor.swift */; };
+		4B5D218D280953BA00E2C8F4 /* BizClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D218C280953BA00E2C8F4 /* BizClient.swift */; };
+		4BA405232809212000E94681 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA405222809210900E94681 /* libresolv.9.tbd */; };
+		4BA405272809231600E94681 /* RTMWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BA405262809231600E94681 /* RTMWrapper.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B0DF0F12807D5EB002BE2B9 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4B0DF0F32807F127002BE2B9 /* BottomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationView.swift; sourceTree = "<group>"; };
+		4B0DF0F52807F13E002BE2B9 /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
+		4B0DF0F72807F150002BE2B9 /* ContactItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactItemView.swift; sourceTree = "<group>"; };
+		4B0DF0F92807F39F002BE2B9 /* MenuActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuActionView.swift; sourceTree = "<group>"; };
+		4B0DF0FB2807F5F0002BE2B9 /* ProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingView.swift; sourceTree = "<group>"; };
+		4B0DF0FD2808108D002BE2B9 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		4B0DF0FF280812F9002BE2B9 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		4B0DF101280815A0002BE2B9 /* DialogueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogueView.swift; sourceTree = "<group>"; };
+		4B0DF10328082D0C002BE2B9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4B0DF10528082D23002BE2B9 /* ContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
+		4B0DF10728083DCF002BE2B9 /* BrokenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenView.swift; sourceTree = "<group>"; };
+		4B0DF10A28084369002BE2B9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4B0DF10C28084832002BE2B9 /* DBOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBOperator.swift; sourceTree = "<group>"; };
+		4B2444E62806ECA1007FF286 /* IMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2444E92806ECA1007FF286 /* IMDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDemoApp.swift; sourceTree = "<group>"; };
+		4B2444ED2806ECA3007FF286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B2444F02806ECA3007FF286 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B2444F72806EFD0007FF286 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4B2444F92806F6C7007FF286 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		4B2444FB2806F6D6007FF286 /* IMCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCenter.swift; sourceTree = "<group>"; };
+		4B5D215F28094B1E00E2C8F4 /* Rtm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rtm.framework; sourceTree = "<group>"; };
+		4B5D216328094B6000E2C8F4 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		4B5D216428094B6000E2C8F4 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		4B5D216528094B6000E2C8F4 /* RTMAudioplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMAudioplayer.h; sourceTree = "<group>"; };
+		4B5D216728094B6000E2C8F4 /* enc_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enc_if.h; sourceTree = "<group>"; };
+		4B5D216928094B6000E2C8F4 /* wavwriter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wavwriter.c; sourceTree = "<group>"; };
+		4B5D216A28094B6000E2C8F4 /* wavreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavreader.h; sourceTree = "<group>"; };
+		4B5D216B28094B6000E2C8F4 /* NarrowBandWavToAmr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NarrowBandWavToAmr.h; sourceTree = "<group>"; };
+		4B5D216C28094B6000E2C8F4 /* WidthBandWavToAmr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidthBandWavToAmr.h; sourceTree = "<group>"; };
+		4B5D216D28094B6000E2C8F4 /* VoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VoiceConverter.mm; sourceTree = "<group>"; };
+		4B5D216E28094B6000E2C8F4 /* wavwriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavwriter.h; sourceTree = "<group>"; };
+		4B5D216F28094B6000E2C8F4 /* VoiceConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceConverter.h; sourceTree = "<group>"; };
+		4B5D217028094B6000E2C8F4 /* wavreader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wavreader.c; sourceTree = "<group>"; };
+		4B5D217128094B6000E2C8F4 /* NarrowBandWavToAmr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NarrowBandWavToAmr.mm; sourceTree = "<group>"; };
+		4B5D217228094B6000E2C8F4 /* WidthBandWavToAmr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WidthBandWavToAmr.mm; sourceTree = "<group>"; };
+		4B5D217328094B6000E2C8F4 /* RTMRecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMRecordManager.h; sourceTree = "<group>"; };
+		4B5D217428094B6000E2C8F4 /* RtmVoiceConverterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtmVoiceConverterManager.h; sourceTree = "<group>"; };
+		4B5D217528094B6000E2C8F4 /* RTMRecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMRecordManager.m; sourceTree = "<group>"; };
+		4B5D217728094B6000E2C8F4 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		4B5D217828094B6000E2C8F4 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		4B5D217928094B6000E2C8F4 /* libvo-amrwbenc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libvo-amrwbenc.a"; sourceTree = "<group>"; };
+		4B5D217A28094B6000E2C8F4 /* RTMAudioplayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMAudioplayer.m; sourceTree = "<group>"; };
+		4B5D217C28094B6100E2C8F4 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		4B5D217D28094B6100E2C8F4 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		4B5D217E28094B6100E2C8F4 /* RtmVoiceConverterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RtmVoiceConverterManager.m; sourceTree = "<group>"; };
+		4B5D218A28094ED600E2C8F4 /* IMEventProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMEventProcessor.swift; sourceTree = "<group>"; };
+		4B5D218C280953BA00E2C8F4 /* BizClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BizClient.swift; sourceTree = "<group>"; };
+		4BA405222809210900E94681 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		4BA405252809231600E94681 /* IMDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		4BA405262809231600E94681 /* RTMWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RTMWrapper.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B2444E32806ECA1007FF286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA405232809212000E94681 /* libresolv.9.tbd in Frameworks */,
+				4B5D218728094B6100E2C8F4 /* libvo-amrwbenc.a in Frameworks */,
+				4B0DF10B2808439D002BE2B9 /* libsqlite3.tbd in Frameworks */,
+				4B5D218528094B6100E2C8F4 /* libopencore-amrwb.a in Frameworks */,
+				4B5D218628094B6100E2C8F4 /* libopencore-amrnb.a in Frameworks */,
+				4B5D216028094B1E00E2C8F4 /* Rtm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B0DF10928084369002BE2B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BA405222809210900E94681 /* libresolv.9.tbd */,
+				4B0DF10A28084369002BE2B9 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B2444DD2806ECA1007FF286 = {
+			isa = PBXGroup;
+			children = (
+				4B2444E82806ECA1007FF286 /* IMDemo */,
+				4B2444E72806ECA1007FF286 /* Products */,
+				4B0DF10928084369002BE2B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B2444E72806ECA1007FF286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B2444E62806ECA1007FF286 /* IMDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B2444E82806ECA1007FF286 /* IMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D215F28094B1E00E2C8F4 /* Rtm.framework */,
+				4B5D216128094B6000E2C8F4 /* RTMAudioManager */,
+				4B2444E92806ECA1007FF286 /* IMDemoApp.swift */,
+				4B2444ED2806ECA3007FF286 /* Assets.xcassets */,
+				4B2444EF2806ECA3007FF286 /* Preview Content */,
+				4B2444F72806EFD0007FF286 /* LoginView.swift */,
+				4B2444F92806F6C7007FF286 /* Config.swift */,
+				4B2444FB2806F6D6007FF286 /* IMCenter.swift */,
+				4B0DF0F12807D5EB002BE2B9 /* RegisterView.swift */,
+				4B0DF0F32807F127002BE2B9 /* BottomNavigationView.swift */,
+				4B0DF0F52807F13E002BE2B9 /* TopNavigationView.swift */,
+				4B0DF0F72807F150002BE2B9 /* ContactItemView.swift */,
+				4B0DF0F92807F39F002BE2B9 /* MenuActionView.swift */,
+				4B0DF0FB2807F5F0002BE2B9 /* ProcessingView.swift */,
+				4B0DF0FD2808108D002BE2B9 /* ContactView.swift */,
+				4B0DF0FF280812F9002BE2B9 /* SessionView.swift */,
+				4B0DF101280815A0002BE2B9 /* DialogueView.swift */,
+				4B0DF10328082D0C002BE2B9 /* ProfileView.swift */,
+				4B0DF10528082D23002BE2B9 /* ContactInfoView.swift */,
+				4B0DF10728083DCF002BE2B9 /* BrokenView.swift */,
+				4B0DF10C28084832002BE2B9 /* DBOperator.swift */,
+				4BA405262809231600E94681 /* RTMWrapper.mm */,
+				4BA405252809231600E94681 /* IMDemo-Bridging-Header.h */,
+				4B5D218A28094ED600E2C8F4 /* IMEventProcessor.swift */,
+				4B5D218C280953BA00E2C8F4 /* BizClient.swift */,
+			);
+			path = IMDemo;
+			sourceTree = "<group>";
+		};
+		4B2444EF2806ECA3007FF286 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B2444F02806ECA3007FF286 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B5D216128094B6000E2C8F4 /* RTMAudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D216228094B6000E2C8F4 /* opencore-amrwb */,
+				4B5D216528094B6000E2C8F4 /* RTMAudioplayer.h */,
+				4B5D216628094B6000E2C8F4 /* vo-amrwbenc */,
+				4B5D216828094B6000E2C8F4 /* amrTools */,
+				4B5D217328094B6000E2C8F4 /* RTMRecordManager.h */,
+				4B5D217428094B6000E2C8F4 /* RtmVoiceConverterManager.h */,
+				4B5D217528094B6000E2C8F4 /* RTMRecordManager.m */,
+				4B5D217628094B6000E2C8F4 /* lib */,
+				4B5D217A28094B6000E2C8F4 /* RTMAudioplayer.m */,
+				4B5D217B28094B6000E2C8F4 /* opencore-amrnb */,
+				4B5D217E28094B6100E2C8F4 /* RtmVoiceConverterManager.m */,
+			);
+			path = RTMAudioManager;
+			sourceTree = "<group>";
+		};
+		4B5D216228094B6000E2C8F4 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D216328094B6000E2C8F4 /* if_rom.h */,
+				4B5D216428094B6000E2C8F4 /* dec_if.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		4B5D216628094B6000E2C8F4 /* vo-amrwbenc */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D216728094B6000E2C8F4 /* enc_if.h */,
+			);
+			path = "vo-amrwbenc";
+			sourceTree = "<group>";
+		};
+		4B5D216828094B6000E2C8F4 /* amrTools */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D216928094B6000E2C8F4 /* wavwriter.c */,
+				4B5D216A28094B6000E2C8F4 /* wavreader.h */,
+				4B5D216B28094B6000E2C8F4 /* NarrowBandWavToAmr.h */,
+				4B5D216C28094B6000E2C8F4 /* WidthBandWavToAmr.h */,
+				4B5D216D28094B6000E2C8F4 /* VoiceConverter.mm */,
+				4B5D216E28094B6000E2C8F4 /* wavwriter.h */,
+				4B5D216F28094B6000E2C8F4 /* VoiceConverter.h */,
+				4B5D217028094B6000E2C8F4 /* wavreader.c */,
+				4B5D217128094B6000E2C8F4 /* NarrowBandWavToAmr.mm */,
+				4B5D217228094B6000E2C8F4 /* WidthBandWavToAmr.mm */,
+			);
+			path = amrTools;
+			sourceTree = "<group>";
+		};
+		4B5D217628094B6000E2C8F4 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D217728094B6000E2C8F4 /* libopencore-amrwb.a */,
+				4B5D217828094B6000E2C8F4 /* libopencore-amrnb.a */,
+				4B5D217928094B6000E2C8F4 /* libvo-amrwbenc.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		4B5D217B28094B6000E2C8F4 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D217C28094B6100E2C8F4 /* interf_dec.h */,
+				4B5D217D28094B6100E2C8F4 /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B2444E52806ECA1007FF286 /* IMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B2444F42806ECA3007FF286 /* Build configuration list for PBXNativeTarget "IMDemo" */;
+			buildPhases = (
+				4B2444E22806ECA1007FF286 /* Sources */,
+				4B2444E32806ECA1007FF286 /* Frameworks */,
+				4B2444E42806ECA1007FF286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMDemo;
+			productName = IMDemo;
+			productReference = 4B2444E62806ECA1007FF286 /* IMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B2444DE2806ECA1007FF286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4B2444E52806ECA1007FF286 = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
+					};
+				};
+			};
+			buildConfigurationList = 4B2444E12806ECA1007FF286 /* Build configuration list for PBXProject "IMDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B2444DD2806ECA1007FF286;
+			productRefGroup = 4B2444E72806ECA1007FF286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B2444E52806ECA1007FF286 /* IMDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B2444E42806ECA1007FF286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2444F12806ECA3007FF286 /* Preview Assets.xcassets in Resources */,
+				4B2444EE2806ECA3007FF286 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B2444E22806ECA1007FF286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2444F82806EFD0007FF286 /* LoginView.swift in Sources */,
+				4BA405272809231600E94681 /* RTMWrapper.mm in Sources */,
+				4B5D218228094B6100E2C8F4 /* NarrowBandWavToAmr.mm in Sources */,
+				4B5D218828094B6100E2C8F4 /* RTMAudioplayer.m in Sources */,
+				4B0DF10D28084832002BE2B9 /* DBOperator.swift in Sources */,
+				4B0DF0FE2808108D002BE2B9 /* ContactView.swift in Sources */,
+				4B5D218D280953BA00E2C8F4 /* BizClient.swift in Sources */,
+				4B0DF0FC2807F5F0002BE2B9 /* ProcessingView.swift in Sources */,
+				4B5D218928094B6100E2C8F4 /* RtmVoiceConverterManager.m in Sources */,
+				4B0DF0F22807D5EB002BE2B9 /* RegisterView.swift in Sources */,
+				4B2444FC2806F6D6007FF286 /* IMCenter.swift in Sources */,
+				4B2444FA2806F6C7007FF286 /* Config.swift in Sources */,
+				4B0DF0F62807F13E002BE2B9 /* TopNavigationView.swift in Sources */,
+				4B5D218428094B6100E2C8F4 /* RTMRecordManager.m in Sources */,
+				4B5D218328094B6100E2C8F4 /* WidthBandWavToAmr.mm in Sources */,
+				4B5D218128094B6100E2C8F4 /* wavreader.c in Sources */,
+				4B0DF10828083DCF002BE2B9 /* BrokenView.swift in Sources */,
+				4B0DF100280812F9002BE2B9 /* SessionView.swift in Sources */,
+				4B0DF0FA2807F39F002BE2B9 /* MenuActionView.swift in Sources */,
+				4B0DF102280815A0002BE2B9 /* DialogueView.swift in Sources */,
+				4B5D218B28094ED600E2C8F4 /* IMEventProcessor.swift in Sources */,
+				4B2444EA2806ECA1007FF286 /* IMDemoApp.swift in Sources */,
+				4B5D217F28094B6100E2C8F4 /* wavwriter.c in Sources */,
+				4B5D218028094B6100E2C8F4 /* VoiceConverter.mm in Sources */,
+				4B0DF0F82807F150002BE2B9 /* ContactItemView.swift in Sources */,
+				4B0DF10428082D0D002BE2B9 /* ProfileView.swift in Sources */,
+				4B0DF0F42807F127002BE2B9 /* BottomNavigationView.swift in Sources */,
+				4B0DF10628082D23002BE2B9 /* ContactInfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B2444F22806ECA3007FF286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B2444F32806ECA3007FF286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B2444F52806ECA3007FF286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IMDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = D824LZ5R4H;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMDemo",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMDemo",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/IMDemo/RTMAudioManager/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = swxlion.IMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "IMDemo/IMDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B2444F62806ECA3007FF286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IMDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = D824LZ5R4H;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMDemo",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IMDemo",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/IMDemo/RTMAudioManager/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = swxlion.IMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "IMDemo/IMDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B2444E12806ECA1007FF286 /* Build configuration list for PBXProject "IMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2444F22806ECA3007FF286 /* Debug */,
+				4B2444F32806ECA3007FF286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B2444F42806ECA3007FF286 /* Build configuration list for PBXNativeTarget "IMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2444F52806ECA3007FF286 /* Debug */,
+				4B2444F62806ECA3007FF286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B2444DE2806ECA1007FF286 /* Project object */;
+}
